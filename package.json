@@ -4,8 +4,8 @@
   "description": "shop web",
   "main": "app.js",
   "scripts": {
-    "start": "nodemon app.js",
-    "start-server": "node app.js",
+    "startDev": "NODE_ENV=production MONGO_USER=daniel MONGO_PASSWORD=khasudgn32l DB_NAME=myFirstDatabase STRIPE_KEY=sk_test_T8OE02SHDZWLwk4TYtrWlsat nodemon app.js",
+    "start": "node app.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Daniel Gracian",
@@ -18,15 +18,19 @@
     "bcryptjs": "^2.4.3",
     "connect-flash": "^0.1.1",
     "connect-mongodb-session": "^2.4.1",
-    "csurf": "^1.11.0",
+    "dotenv": "^8.2.0",
     "ejs": "^3.1.6",
     "express": "^4.17.1",
     "express-handlebars": "^5.2.1",
     "express-session": "^1.17.1",
+    "express-validator": "^6.10.0",
     "mongodb": "^3.6.5",
     "mongoose": "^5.12.1",
+    "multer": "^1.4.2",
     "nodemailer": "^6.5.0",
     "nodemailer-sendgrid-transport": "^0.2.0",
-    "save": "^2.4.0"
+    "pdfkit": "^0.11.0",
+    "save": "^2.4.0",
+    "stripe": "^8.138.0"
   }
 }

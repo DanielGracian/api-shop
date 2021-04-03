@@ -1,0 +1,8 @@
+{
+    "env":{
+        "MONGO_USER": "daniel",
+        "MONGO_PASSWORD": "khasudgn32l",
+        "DB_NAME": "myFirstDatabase",
+        "STRIPE_KEY": "st_key_stripe"
+    }
+}
