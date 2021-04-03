@@ -4,7 +4,7 @@
   "description": "shop web",
   "main": "app.js",
   "scripts": {
-    "startDev": "NODE_ENV=production MONGO_USER=daniel MONGO_PASSWORD=khasudgn32l DB_NAME=myFirstDatabase STRIPE_KEY=sk_test_T8OE02SHDZWLwk4TYtrWlsat nodemon app.js",
+    "startDev": "NODE_ENV=dev MONGO_USER=someName MONGO_PASSWORD=somePass DB_NAME=someDBName STRIPE_KEY=someTestKey nodemon app.js",
     "start": "node app.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
