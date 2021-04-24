@@ -110,7 +110,7 @@ app.use((error, req, res, next) => {
     isAuthenticated: req.session.isLoggedIn
   });
 });
-
+ 
 /*
 mongoose
   .connect(MONGODB_URI, { useNewUrlParser: true, useUnifiedTopology: true })
